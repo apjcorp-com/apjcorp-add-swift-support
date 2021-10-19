@@ -69,6 +69,7 @@ module.exports = context => {
 
       bridgingHeaderPath = getBridgingHeaderPath(projectPath, iosPlatformVersion);
 
+      console.log('bridgingHeaderPath'+bridgingHeaderPath+'==============================iosPlatformVersion'+iosPlatformVersion);
       try {
         fs.statSync(bridgingHeaderPath);
       } catch (err) {
