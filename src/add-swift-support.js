@@ -78,7 +78,7 @@ module.exports = context => {
         bridgingHeaderContent = ['//',
           '//  Use this file to import your target\'s public headers that you would like to expose to Swift.',
           '//',
-          '#import <Cordova/CDV.h>', '@import APJPhotoEditor'];
+          '#import <Cordova/CDV.h>'];
         fs.writeFileSync(bridgingHeaderPath, bridgingHeaderContent.join('\n'), { encoding: 'utf-8', flag: 'w' });
         xcodeProject.addHeaderFile('Bridging-Header.h');
       }

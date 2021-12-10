@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="jianghat-add-swift-support" version="1.0.6">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="apjcorp-add-swift-support" version="1.0.6">
 
   <name>AddSwiftSupport</name>
   <license>Apache 2.0</license>
   <description>Cordova plugin to add swift support</description>
   <keywords>cordova,phonegap,swift,plugin</keywords>
-  <repo>https://github.com/jianghat/jianghat-add-swift-support.git</repo>
+  <repo>https://github.com/apjcorp-com/apjcorp-add-swift-support.git</repo>
 
   <hook type="after_prepare" src="src/add-swift-support.js" />
 
